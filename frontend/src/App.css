@@ -1,0 +1,27 @@
+body {
+  background-image: url('https://blog.edx.org/hubfs/Imported_Blog_Media/IELTSx-intro-shot-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pages {
+  width: 100%;
+  max-width: 600px;
+}
+
+a {
+  color: black;
+}
+
+/* Rest of the CSS code remains the same */
+pre {
+  color: black;
+}

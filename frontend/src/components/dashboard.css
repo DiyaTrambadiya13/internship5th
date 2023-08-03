@@ -1,0 +1,111 @@
+/* dashboard.css */
+
+body {
+    background-color: #333;
+    /* background-image: url('https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?w=2000'); */
+    color: #fff;
+}
+
+.container {
+    /* display: none; */
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+.rows {
+    text-align: center;
+}
+
+.rows ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rows li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.rows a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.rows a:hover {
+    color: #ccc;
+}
+
+.buttonStyle {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.textAreaStyle {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #222;
+}
+
+.backButtonStyle {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.rows {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.rows ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rows li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.rows a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.rows a:hover {
+    background-color: #0056b3;
+}
